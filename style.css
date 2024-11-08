@@ -1,0 +1,118 @@
+*{
+    color: #fff;
+    font-family: "Barlow Semi Condensed", sans-serif
+}
+.container{
+    margin: 0px auto;
+    height: 80%;
+}
+.first{
+    background-color: rgb(134 89 206);
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 77% 7px;
+    background-size: 145px;
+}
+.first p:nth-child(2){
+    padding-left: 3px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+.first p:nth-child(3){
+    color: rgb(207, 207, 207);
+    margin-bottom: 0;
+}
+.label{
+    align-items: center;
+}
+.photo img{
+    border: 2px solid rgb(255, 255, 255,0.5);
+    width: 40px;
+}
+.detail {
+    margin-top: 6px;
+    padding-left: 1rem;
+}
+.detail .light {
+    color: rgb(207, 207, 207);
+}
+.detail h4{
+    font-size: 1rem;
+}
+.quote{
+    position: absolute;
+    width: 150px;
+    top: 5px;
+    right: 15%;
+    opacity: 1;
+    z-index: 0;
+}
+.second{
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+}
+.second img{
+    width: 40px;
+}
+.second p:nth-child(2){
+    padding-left: 3px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.second p:nth-child(3){
+    color: rgb(207, 207, 207);
+    margin-bottom: 0;
+}
+.third{
+    border-radius: 10px;
+}
+.third img{
+    width: 40px;
+}
+.third p:nth-child(2){
+    padding-left: 3px;
+    font-size: 1.6rem;
+    padding-top: 10px;
+    font-weight: 600;
+    color: hsl(217, 19%, 35%);
+    line-height: 25px;
+}
+.third p:nth-child(3){
+    color: rgb(207, 207, 207);
+    margin-bottom: 0;
+}
+.fourth{
+    border-radius: 10px;
+    background-color: hsl(219, 29%, 14%);
+}
+.fourth img{
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(134 89 206);
+}
+.fourth p:nth-child(2){
+    padding-left: 3px;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.fourth p:nth-child(3){
+    color: rgb(207, 207, 207);
+    margin-bottom: 0;
+}
+.four{
+    border-radius: 10px;
+}
+.four p:nth-child(2){
+    padding-left: 3px;
+    font-size: 2rem;
+    font-weight: 600;   
+}
+.four p:nth-child(3){
+    color: rgb(165 165 165);
+    font-size: 1.2rem;   
+}
